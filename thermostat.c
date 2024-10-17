@@ -22,9 +22,8 @@ if(id == 0){
 else if( id > 0){
     int count = 0;
     while(count < 100){
-        if ((count % 10) == 1)
-    printf("smart home device running normally \n");
-    count++;
+        printf("smart home device running normally \n");
+        count++;
     }
 
     char buffer [100];
